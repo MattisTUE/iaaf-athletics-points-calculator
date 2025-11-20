@@ -1,9 +1,9 @@
 import math
 import json
-import streamlit as st
+#import streamlit as st
 
 
-@st.cache_data
+#@st.cache_data
 def get_models():
     with open("iaaf_scoring_formulas.json") as f:
         models = json.load(f)
